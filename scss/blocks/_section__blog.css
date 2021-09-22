@@ -1,0 +1,34 @@
+.section__blog {
+  padding-top: 100px;
+}
+
+.tittle__blog {
+  text-align: center;
+  position: relative;
+}
+
+.tittle__blog::before {
+  content: "B";
+  font-size: 180px;
+  color: #E2E2E2FF;
+  position: absolute;
+  transform: translate(-50px, -90px);
+  z-index: 0;
+}
+
+.tittle__h2 {
+  position: relative;
+  text-transform: uppercase;
+  margin: 0;
+  z-index: 1;
+}
+
+.tittle__p {
+  letter-spacing: 3px;
+  margin-top: 80px;
+}
+
+.box__pages {
+  padding: 0;
+  list-style-type: none;
+}

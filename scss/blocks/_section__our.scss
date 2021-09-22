@@ -1,0 +1,42 @@
+.tittle__blog-too {
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+}
+.tittle__blog-too::before {
+    content: "T";
+    font-size: 180px;
+    color: #E2E2E2FF;
+    position: absolute;
+    transform: translate(-50px,-90px);
+    z-index: 0;
+}
+.our__pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 30px;
+}
+.our__div {
+    margin: 0 auto;
+    width: 130px;
+    background-color: white;
+    padding: 5px;
+    transform: translateY(-50%);
+}
+.our__p {
+    margin: 2px;
+}
+.our__item {
+    text-align: center;
+    box-sizing: border-box;
+}
+.our__img {
+    width: 200px;
+}
+.our__p {
+    color: #4D91B6FF;
+    text-transform: uppercase;
+}

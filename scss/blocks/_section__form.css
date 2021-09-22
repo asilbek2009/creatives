@@ -1,0 +1,26 @@
+.section__form {
+  background-image: url(/img/photo_2021-09-09_17-51-37.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.form__text::before {
+  content: "C";
+  font-size: 100px;
+  color: red;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+.form__tittle {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+}

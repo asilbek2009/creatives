@@ -1,0 +1,48 @@
+.intro__section {
+    background-color: #11749EFF;
+    padding-bottom: 50px;
+}
+.intro__text::before {
+    position: absolute;
+    content: "W";
+    font-size: 150px;
+    color: #5B91B3FF;
+    left: 600px;
+    transform: translateY(-15px);
+    z-index: 0;
+}
+.intro__tittle {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.intro__pages {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro__item {
+    width: 200px;
+    text-align: center;
+}
+.intro__span {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #3084A9FF;
+}
+.intro__box-h4 {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 12px;
+}
+.intro__box-p {
+    color: white;
+}

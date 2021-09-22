@@ -1,0 +1,41 @@
+.inner__section {
+    background-color: rgb(32, 32, 32);
+}
+.inner__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.inner__wrap-left {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    // margin-right: 0;
+    // margin-left: 100px;
+}
+.inner__small {
+    color: white;
+}
+.inner__h2 {
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+}
+.inner__p {
+    width: 370px;
+    color: white;
+}
+.inner__too-p {
+    width: 350px;
+    color: white;
+}
+.inner__wrap-right {
+    background-image: url(/img/photo_2021-09-09_17-46-52.jpg);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+}
+ 

@@ -1,0 +1,57 @@
+.section__form {
+    background-image: url(/img/photo_2021-09-09_17-51-37.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.form__text::before {
+    content: "C";
+    font-size: 150px;
+    color: #616163FF;
+    position: absolute;
+    margin: 0 auto;
+    transform: translate(380px,-70px);
+    z-index: 0;
+}
+.form__tittle {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+}
+.form__wrap{
+    margin-top: 100px;
+    align-items: center;   
+    text-align: center;
+}
+.input {
+    width: 31%;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+}
+.input ~ .input {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.text__area {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px;
+}
+.form__button {
+    margin-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    background-color: #11749EFF;
+    color: white;  
+    border: none;
+}

@@ -1,0 +1,45 @@
+.tittle__blog-too {
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+}
+
+.tittle__blog-too::before {
+  content: "T";
+  font-size: 180px;
+  color: #E2E2E2FF;
+  position: absolute;
+  transform: translate(-50px, -90px);
+  z-index: 0;
+}
+
+.our__pages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  list-style-type: none;
+}
+
+.our__div {
+  margin: 0 auto;
+  width: 100px;
+  background-color: red;
+}
+
+.our__p {
+  margin: 2px;
+}
+
+.our__item {
+  text-align: center;
+}
+
+.our__img {
+  width: 200px;
+}
+
+.input {
+  border: 2px solid white;
+  background-color: transparent;
+}

@@ -1,0 +1,31 @@
+.header {
+  background-image: url(/img/photo_2021-09-09_17-45-59.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid;
+}
+
+.navigation__wraper {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pages__wrap {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-left: auto;
+}
+
+.pages__item ~ .pages__item {
+  margin-left: 25px;
+}
+
+.pages__link {
+  text-decoration: none;
+  color: aqua;
+  text-transform: capitalize;
+}
